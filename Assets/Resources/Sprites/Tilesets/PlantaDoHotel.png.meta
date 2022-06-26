@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -1267,8 +1267,8 @@ TextureImporter:
       PlantaDoHotel_35: -8528544
       PlantaDoHotel_27: -1097609622
       PlantaDoHotel_19: -602793835
-      PlantaDoHotel_0: -289117218
       PlantaDoHotel_50: 709810234
+      PlantaDoHotel_0: -289117218
       PlantaDoHotel_20: 8764943
       PlantaDoHotel_51: 1290386053
       PlantaDoHotel_43: 1583654566
@@ -1276,16 +1276,16 @@ TextureImporter:
       PlantaDoHotel_1: 15726054
       PlantaDoHotel_41: 621126185
       PlantaDoHotel_31: -1786390673
-      PlantaDoHotel_32: 1089575706
       PlantaDoHotel_47: -370509923
-      PlantaDoHotel_37: -321754519
+      PlantaDoHotel_32: 1089575706
       PlantaDoHotel_3: 627925101
       PlantaDoHotel_36: 278073998
-      PlantaDoHotel_48: -419947981
+      PlantaDoHotel_37: -321754519
       PlantaDoHotel_18: 1668689018
       PlantaDoHotel_26: -1828599711
       PlantaDoHotel_46: 498959533
       PlantaDoHotel_30: -1062666612
+      PlantaDoHotel_48: -419947981
       PlantaDoHotel_13: 126877050
       PlantaDoHotel_53: -975006465
       PlantaDoHotel_40: 658759165
