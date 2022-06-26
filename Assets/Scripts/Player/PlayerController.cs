@@ -77,8 +77,8 @@ public class PlayerController : MonoBehaviour, ISaveable
         public float z;
     }
 
-    public void moveUp() {
+    public void moveUp(Transform elev) {
 
-        rb.velocity = new Vector2(1 * 10, 0);
+        rb.transform.position = new Vector3(elev.position.x, elev.position.y - 0.54f, elev.position.z);
     }
 }
