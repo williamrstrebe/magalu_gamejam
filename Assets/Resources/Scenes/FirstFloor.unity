@@ -3178,9 +3178,8 @@ GameObject:
   - component: {fileID: 748569763}
   - component: {fileID: 748569762}
   - component: {fileID: 748569761}
-  - component: {fileID: 748569764}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3285,18 +3284,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &748569764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 748569759}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &754662894
 GameObject:
   m_ObjectHideFlags: 0
@@ -5643,15 +5630,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3679578462628185721, guid: 2f56f8533280f4d449605c54ce5170dc, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3679578462628185721, guid: 2f56f8533280f4d449605c54ce5170dc, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11500000, guid: 710e053acce1c1f43b8dd3aeb2edbac4, type: 3}
+      objectReference: {fileID: 1759705591}
     - target: {fileID: 3679578462628185721, guid: 2f56f8533280f4d449605c54ce5170dc, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679578462628185721, guid: 2f56f8533280f4d449605c54ce5170dc, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: goTo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679578462628185721, guid: 2f56f8533280f4d449605c54ce5170dc, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StairScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679578462628185721, guid: 2f56f8533280f4d449605c54ce5170dc, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: JigsawPuzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679578462628185721, guid: 2f56f8533280f4d449605c54ce5170dc, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5820206214858234033, guid: 2f56f8533280f4d449605c54ce5170dc, type: 3}
       propertyPath: m_Name
@@ -6393,6 +6396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1759705590}
   - component: {fileID: 1759705589}
+  - component: {fileID: 1759705591}
   m_Layer: 0
   m_Name: Jigsaw
   m_TagString: Untagged
@@ -6468,6 +6472,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1759705591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759705588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e053acce1c1f43b8dd3aeb2edbac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1803002859
 GameObject:
   m_ObjectHideFlags: 0

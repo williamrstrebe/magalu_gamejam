@@ -355,7 +355,6 @@ GameObject:
   m_Component:
   - component: {fileID: 161556099}
   - component: {fileID: 161556098}
-  - component: {fileID: 161556097}
   - component: {fileID: 161556100}
   m_Layer: 0
   m_Name: Square
@@ -364,32 +363,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &161556097
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161556096}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.00000017881393, y: -0.06311309}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.32032073, y: 0.17467523}
-  m_EdgeRadius: 0
 --- !u!212 &161556098
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -457,19 +430,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &161556100
-MonoBehaviour:
+--- !u!61 &161556100
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161556096}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6875ae43052247479a2de470b97af3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myJigsaw: QuebraCabeca 1_0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &444186369
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 1687572027}
 --- !u!61 &444186373
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -692,6 +679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 1770092700}
 --- !u!61 &576303231
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -859,6 +847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 1373616685}
 --- !u!61 &1099333066
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1116,8 +1105,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1183857191}
+  - component: {fileID: 1183857192}
   m_Layer: 0
-  m_Name: PuzzleController
+  m_Name: JigsawController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1138,6 +1128,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1183857192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183857190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06c7e21d934e2f4bbee9cbb2c93c577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piecesLeft: 0
 --- !u!1 &1214906941
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,6 +1239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 1105841885}
 --- !u!61 &1214906945
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1471,6 +1475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 1692517418}
 --- !u!61 &1449852649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1595,6 +1600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 2074968644}
 --- !u!61 &1582323772
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2144,7 +2150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840218403}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.52, y: 2.52, z: 9.946769}
+  m_LocalPosition: {x: -7.52, y: 3.41, z: 9.946769}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2163,6 +2169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 161556096}
 --- !u!61 &1840218407
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2405,6 +2412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 112299949}
 --- !u!61 &1967918689
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2529,6 +2537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 1175940640}
 --- !u!61 &1990067785
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2653,6 +2662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 62026375}
 --- !u!61 &2025728889
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2777,6 +2787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 1771580170}
 --- !u!61 &2032303974
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3123,6 +3134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9d946962d226541a385d695f163fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctPlace: {fileID: 2116643519}
 --- !u!61 &2123675149
 BoxCollider2D:
   m_ObjectHideFlags: 0
