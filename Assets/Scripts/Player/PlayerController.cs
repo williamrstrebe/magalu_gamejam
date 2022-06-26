@@ -16,9 +16,6 @@ public class PlayerController : MonoBehaviour, ISaveable
 
     void Start()
     {
-
-
-
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
@@ -78,5 +75,10 @@ public class PlayerController : MonoBehaviour, ISaveable
         public float x;
         public float y;
         public float z;
+    }
+
+    public void moveUp() {
+
+        rb.velocity = new Vector2(1 * 10, 0);
     }
 }

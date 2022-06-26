@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class StairScript : MonoBehaviour
 {
 
-    public void goToHotel() {
-        SceneManager.LoadScene("Hotel", LoadSceneMode.Single);
+    public void goTo(string scene) {
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
 }

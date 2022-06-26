@@ -9,7 +9,7 @@ public class Interactable : MonoBehaviour
     public KeyCode interactKey;
     public UnityEvent interactAction;
     private bool inRange;
-
+   
     private void Update()
     {
         if (inRange)
@@ -23,6 +23,7 @@ public class Interactable : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             inRange = true;
+            //canvas.enabled = true;
         }
     }
 
@@ -32,6 +33,7 @@ public class Interactable : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             inRange = false;
+            //canvas.enabled = false;
         }
 
     }
