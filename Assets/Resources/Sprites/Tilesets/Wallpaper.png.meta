@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 69c53d99c2e76fb438cbd94568f50706
+guid: ee8539117c38feb4cb4102f35ac5a812
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,7 +129,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,76 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Elevador_0
+      name: Wallpaper_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 17
-        width: 42
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8460a5ee9e774c1408389dff1b57777b
-      internalID: 612216280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elevador_1
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 39
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f0a8644c482b9f4e9541253eecc5d94
-      internalID: 2059906465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elevador_2
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 17
-        width: 15
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d1e66c76394faf48afef2dab1eac1f5
-      internalID: 1977365601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elevador_3
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 17
-        width: 15
-        height: 51
+        x: 0
+        y: 0
+        width: 200
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29aedbec24a47354da9cc94ca980363c
-      internalID: 95031419
+      spriteID: a0c6c540ec2f69d449ad54ed0ec3989b
+      internalID: 1087050568
       vertices: []
       indices: 
       edges: []
@@ -234,10 +171,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Elevador_3: 95031419
-      Elevador_2: 1977365601
-      Elevador_0: 612216280
-      Elevador_1: 2059906465
+      Wallpaper_0: 1087050568
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

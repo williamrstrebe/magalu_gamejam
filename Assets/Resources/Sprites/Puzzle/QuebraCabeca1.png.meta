@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bc23d116fbfa97b49b30960255313080
+guid: a640eae4019fd96479e7cc56eb9732f7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,7 +129,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,75 +140,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "QuartoZ\xE9_0"
+      name: QuebraCabeca1_0
       rect:
         serializedVersion: 2
-        x: 70
-        y: 62
-        width: 19
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebbb93453a51a3f4db5f3430ea277d89
-      internalID: -1516099358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "QuartoZ\xE9_1"
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 31
-        width: 36
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 106c54c5e9208a349af625d6b58fb18a
-      internalID: 1668355357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "QuartoZ\xE9_2"
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 14
-        width: 48
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bab303b257422b4459c9b9564c4987db
-      internalID: 2035105055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "QuartoZ\xE9_3"
-      rect:
-        serializedVersion: 2
-        x: 123
-        y: 34
-        width: 19
+        x: 3
+        y: 75
+        width: 29
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -217,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c42895a61f123a4eb1af928f53fda18
-      internalID: 89352337
+      spriteID: 56733deba36b6cd4d9720b9720479096
+      internalID: 1043446488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "QuartoZ\xE9_4"
+      name: QuebraCabeca1_1
       rect:
         serializedVersion: 2
-        x: 161
-        y: 17
-        width: 17
-        height: 20
+        x: 37
+        y: 68
+        width: 22
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76b169ef6e946754dbc84705977be9a5
-      internalID: -1512832819
+      spriteID: bae959a2ae02fd144ba2c921b38678c2
+      internalID: 1478561802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "QuartoZ\xE9_5"
+      name: QuebraCabeca1_2
       rect:
         serializedVersion: 2
-        x: 6
-        y: 20
+        x: 65
+        y: 75
         width: 36
-        height: 4
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f0f1349316d7454398fd707f749c64b
-      internalID: -114989753
+      spriteID: 37b232daefe5b8440a840ddf93b8fceb
+      internalID: -2098831736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "QuartoZ\xE9_6"
+      name: QuebraCabeca1_3
       rect:
         serializedVersion: 2
-        x: 116
-        y: 1
-        width: 33
-        height: 27
+        x: 104
+        y: 68
+        width: 22
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f13ff7f660f5b9f4cb66e3dfc27e63a9
-      internalID: 1206242533
+      spriteID: 82e3a2bbd2fe64045841aa38fa7e9bda
+      internalID: -2089129413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "QuartoZ\xE9_7"
+      name: QuebraCabeca1_4
       rect:
         serializedVersion: 2
-        x: 186
-        y: 16
-        width: 9
-        height: 12
+        x: 3
+        y: 35
+        width: 22
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,20 +238,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 420e18b24688e5b468946ebc74e654ce
-      internalID: 1474262713
+      spriteID: dddebd22e4f21b74c9f37fe29402c627
+      internalID: 649075298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "QuartoZ\xE9_8"
+      name: QuebraCabeca1_5
       rect:
         serializedVersion: 2
-        x: 6
+        x: 30
+        y: 42
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f543e5384b8e1804e82dfc97bb260c84
+      internalID: -1460935414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuebraCabeca1_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 35
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b8308a1fa0316439f1d5e9d2bd2dea
+      internalID: -799932262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuebraCabeca1_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 42
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b837c20b792dece4f9f1e3d487edefde
+      internalID: 1726334595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuebraCabeca1_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 8
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4fa7cce19b5c84687c54774790a871
+      internalID: 1929235016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuebraCabeca1_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 8
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf5ee02b2173244ba1c1e06210eb487
+      internalID: 325225694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuebraCabeca1_10
+      rect:
+        serializedVersion: 2
+        x: 65
         y: 8
         width: 36
-        height: 4
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,20 +364,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f9fff7837044f646b97fc8e72aa9782
-      internalID: -1462049041
+      spriteID: 5d7540588da64294e9f24bc3095244cc
+      internalID: 1256321535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "QuartoZ\xE9_9"
+      name: QuebraCabeca1_11
       rect:
         serializedVersion: 2
-        x: 156
-        y: 1
-        width: 27
-        height: 15
+        x: 104
+        y: 8
+        width: 22
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,29 +385,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5dae466e2c6a0e42a35a56a42c65367
-      internalID: 1253431804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "QuartoZ\xE9_10"
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 1
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 073fb7f8189e86b4f89262e3e9807f48
-      internalID: 1302495572
+      spriteID: 60080324a2d1c0d4eab042ddb2d3091c
+      internalID: 947657049
       vertices: []
       indices: 
       edges: []
@@ -381,17 +402,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "QuartoZ\xE9_10": 1302495572
-      "QuartoZ\xE9_0": -1516099358
-      "QuartoZ\xE9_8": -1462049041
-      "QuartoZ\xE9_7": 1474262713
-      "QuartoZ\xE9_5": -114989753
-      "QuartoZ\xE9_3": 89352337
-      "QuartoZ\xE9_2": 2035105055
-      "QuartoZ\xE9_4": -1512832819
-      "QuartoZ\xE9_9": 1253431804
-      "QuartoZ\xE9_6": 1206242533
-      "QuartoZ\xE9_1": 1668355357
+      QuebraCabeca1_5: -1460935414
+      QuebraCabeca1_10: 1256321535
+      QuebraCabeca1_8: 1929235016
+      QuebraCabeca1_1: 1478561802
+      QuebraCabeca1_2: -2098831736
+      QuebraCabeca1_7: 1726334595
+      QuebraCabeca1_6: -799932262
+      QuebraCabeca1_11: 947657049
+      QuebraCabeca1_0: 1043446488
+      QuebraCabeca1_4: 649075298
+      QuebraCabeca1_9: 325225694
+      QuebraCabeca1_3: -2089129413
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

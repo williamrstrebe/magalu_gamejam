@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c3b70fdb10625724ab1f852e46650351
+guid: ced8a274e560c574ca5043c2f3bd954e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,17 +100,53 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PipesEdited_0
+      name: QuebraCabeca2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 39
-        width: 16
-        height: 16
+        x: 4
+        y: 75
+        width: 28
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd2d3361e4ca5d44c8bdc65a50846248
-      internalID: -1678075176
+      spriteID: ac00fd62dee3b5640bce90d4090cb8fb
+      internalID: 271472039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipesEdited_1
+      name: QuebraCabeca2_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 39
-        width: 16
-        height: 16
+        x: 38
+        y: 68
+        width: 21
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00951e73cff693419339f3f58e62fa5
-      internalID: 1628237272
+      spriteID: d8d310440ddaf464d957012b296213ac
+      internalID: -1944773558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipesEdited_2
+      name: QuebraCabeca2_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 39
-        width: 16
-        height: 16
+        x: 66
+        y: 75
+        width: 35
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfb3938e04d470c4794f5f6b13a18611
-      internalID: -116264677
+      spriteID: e8b343c1e2fd59f49be67139034a64bd
+      internalID: -1357367491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipesEdited_3
+      name: QuebraCabeca2_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 39
-        width: 16
-        height: 16
+        x: 105
+        y: 68
+        width: 20
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d184b929cffbc24b87f3125e1fbb8c8
-      internalID: -1080081952
+      spriteID: 005792e6879f6654396481834c0d4b6b
+      internalID: -273040565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipesEdited_4
+      name: QuebraCabeca2_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 23
-        width: 16
-        height: 16
+        x: 4
+        y: 35
+        width: 21
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3e27aaf09ee2f4b9d08913f5887145
-      internalID: 2048902541
+      spriteID: 7f3f999ae17563c46904bb4341827bab
+      internalID: 2096085967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipesEdited_5
+      name: QuebraCabeca2_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 23
-        width: 16
-        height: 16
+        x: 30
+        y: 42
+        width: 36
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c870841c3469b3849ba6d9de0fa340b7
-      internalID: -1548099822
+      spriteID: 4750774e95484284f96e15ddd940ea10
+      internalID: 920478291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipesEdited_6
+      name: QuebraCabeca2_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 23
-        width: 16
-        height: 16
+        x: 73
+        y: 35
+        width: 21
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ea49c5f94a1b1e4c85139bbda3f6e96
-      internalID: -914122136
+      spriteID: 6095c70022dc08d4fb36529e14eba8b0
+      internalID: 414746918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipesEdited_7
+      name: QuebraCabeca2_7
       rect:
         serializedVersion: 2
-        x: 48
-        y: 23
-        width: 16
-        height: 16
+        x: 97
+        y: 42
+        width: 29
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9666d74edf186824db3ac6b056a3e7dd
-      internalID: 510069460
+      spriteID: e9e61d8437f908c4a9e7daaa4b8fc519
+      internalID: -1748697125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipesEdited_8
+      name: QuebraCabeca2_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 7
-        width: 16
-        height: 16
+        x: 4
+        y: 9
+        width: 28
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,20 +322,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32dba1c7be22df044a89fa8c37159c91
-      internalID: 297264459
+      spriteID: 7c93c22370d10d34ab4445692b1c3ae6
+      internalID: -460540948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipesEdited_9
+      name: QuebraCabeca2_9
       rect:
         serializedVersion: 2
-        x: 16
-        y: 7
-        width: 16
-        height: 16
+        x: 38
+        y: 9
+        width: 21
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +343,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b910c65b9d641844a7609c34ba5987b
-      internalID: 1238802079
+      spriteID: f085adeb9ce91f74f916fd5e8191395b
+      internalID: -482212767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipesEdited_10
+      name: QuebraCabeca2_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 7
-        width: 16
-        height: 16
+        x: 65
+        y: 9
+        width: 36
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,8 +364,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c69127ae8581ff14b87d88bb4ccf3e6a
-      internalID: 2069173143
+      spriteID: b8694f83ad330c64fa75a721fcff9658
+      internalID: -2004832599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuebraCabeca2_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 9
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2ec940317be464bbf7b4cd2e4aa071
+      internalID: -1239943398
       vertices: []
       indices: 
       edges: []
@@ -345,17 +402,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PipesEdited_10: 2069173143
-      PipesEdited_0: -1678075176
-      PipesEdited_3: -1080081952
-      PipesEdited_2: -116264677
-      PipesEdited_6: -914122136
-      PipesEdited_8: 297264459
-      PipesEdited_4: 2048902541
-      PipesEdited_7: 510069460
-      PipesEdited_5: -1548099822
-      PipesEdited_9: 1238802079
-      PipesEdited_1: 1628237272
+      QuebraCabeca2_8: -460540948
+      QuebraCabeca2_10: -2004832599
+      QuebraCabeca2_11: -1239943398
+      QuebraCabeca2_2: -1357367491
+      QuebraCabeca2_6: 414746918
+      QuebraCabeca2_7: -1748697125
+      QuebraCabeca2_0: 271472039
+      QuebraCabeca2_3: -273040565
+      QuebraCabeca2_1: -1944773558
+      QuebraCabeca2_9: -482212767
+      QuebraCabeca2_5: 920478291
+      QuebraCabeca2_4: 2096085967
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

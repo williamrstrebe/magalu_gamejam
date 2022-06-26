@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 69c53d99c2e76fb438cbd94568f50706
+guid: b9bbbaeac02ec524eb10ba5dfdeeb44b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,7 +129,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,76 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Elevador_0
+      name: BlackVertical_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 17
-        width: 42
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8460a5ee9e774c1408389dff1b57777b
-      internalID: 612216280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elevador_1
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 39
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f0a8644c482b9f4e9541253eecc5d94
-      internalID: 2059906465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elevador_2
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 17
+        x: 3
+        y: 0
         width: 15
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d1e66c76394faf48afef2dab1eac1f5
-      internalID: 1977365601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elevador_3
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 17
-        width: 15
-        height: 51
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,8 +154,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29aedbec24a47354da9cc94ca980363c
-      internalID: 95031419
+      spriteID: c338e817f1e84244eb5a3537563f3e2d
+      internalID: -2143167792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackVertical_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 30
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edd883abb03b0e468349d9d7ec024a3
+      internalID: 1173069306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackVertical_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 38
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da9ea25a84f2e249b2d8b43cdd8b840
+      internalID: -775435624
       vertices: []
       indices: 
       edges: []
@@ -234,10 +213,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Elevador_3: 95031419
-      Elevador_2: 1977365601
-      Elevador_0: 612216280
-      Elevador_1: 2059906465
+      BlackVertical_0: -2143167792
+      BlackVertical_1: 1173069306
+      BlackVertical_2: -775435624
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
