@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour, ISaveable
         }
 
         moveX = Input.GetAxisRaw("Horizontal");
-        Debug.Log(moveX);
+        
         animator.SetBool("walk", moveX != 0);
     }
 
