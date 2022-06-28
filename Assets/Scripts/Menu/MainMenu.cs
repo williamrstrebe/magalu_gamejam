@@ -9,6 +9,16 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Bedroom", LoadSceneMode.Single);
     }
+
+    public void mainMenu()
+    {
+        Debug.Log("Entrou");
+        SceneManager.LoadScene("Main Menu", LoadSceneMode.Single);
+    }
+
+    public void cancel(string room) { 
+        SceneManager.LoadScene(room, LoadSceneMode.Single);
+    }
     
     public void QuitGame()
     {
