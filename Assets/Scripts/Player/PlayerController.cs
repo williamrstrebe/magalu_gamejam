@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour, ISaveable
     public float moveSpeed;
     public Animator animator;
 
-    private float wallet;
+    public static float wallet;
     private float savings;
 
     void Start()
