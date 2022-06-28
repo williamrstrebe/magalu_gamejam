@@ -9,10 +9,13 @@ EditorBuildSettings:
     path: Assets/Resources/Scenes/Main Menu.unity
     guid: b95b784181e1e00459934512f417eae5
   - enabled: 1
+    path: Assets/Resources/Scenes/SaveSlot.unity
+    guid: ec82fdba708a3f44cab881e180a73169
+  - enabled: 1
     path: Assets/Resources/Scenes/Bedroom.unity
     guid: 30b33d6e10bdf254b80b915cbb68c096
   - enabled: 1
-    path: Assets/Resources/Scenes/HotelAux.unity
+    path: Assets/Resources/Scenes/Hotel.unity
     guid: 82e4f338e210492418272d598e8cee5a
   - enabled: 1
     path: Assets/Resources/Scenes/FirstFloor.unity
