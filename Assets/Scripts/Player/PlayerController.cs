@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 
 public class PlayerController : MonoBehaviour, ISaveable
@@ -10,6 +11,27 @@ public class PlayerController : MonoBehaviour, ISaveable
     private float moveX;
     public float moveSpeed;
     public Animator animator;
+
+    public WorldState worldState;
+    public TMP_Text cointTxt;
+
+    void Awake()
+    {
+        if (worldState != null)
+            worldState.increaseBalance(500f);
+
+        updateBalance();
+
+    }
+
+    public void updateBalance()
+    {
+        Debug.Log(worldState);
+        Debug.Log(cointTxt);
+
+        if (cointTxt != null && worldState != null)
+            cointTxt.text = worldState.getBalance().ToString();
+    }
 
     void Start()
     {
@@ -35,7 +57,7 @@ public class PlayerController : MonoBehaviour, ISaveable
         }
 
         moveX = Input.GetAxisRaw("Horizontal");
-        
+
         animator.SetBool("walk", moveX != 0);
     }
 
@@ -74,7 +96,8 @@ public class PlayerController : MonoBehaviour, ISaveable
         public float z;
     }
 
-    public void moveUp(Transform elev) {
+    public void moveUp(Transform elev)
+    {
 
         rb.transform.position = new Vector3(elev.position.x, elev.position.y - 0.54f, elev.position.z);
     }

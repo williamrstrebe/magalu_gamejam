@@ -11043,6 +11043,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 628941130}
     m_Modifications:
     - target: {fileID: 2336892283756549231, guid: 68ed2f1d9dfb30140b8e53c91b6b8010, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336892283756549231, guid: 68ed2f1d9dfb30140b8e53c91b6b8010, type: 3}
       propertyPath: interactKey
       value: 101
       objectReference: {fileID: 0}

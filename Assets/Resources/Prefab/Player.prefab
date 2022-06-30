@@ -104,6 +104,8 @@ MonoBehaviour:
   rb: {fileID: 3279305614014738304}
   moveSpeed: 5
   animator: {fileID: 66384657}
+  worldState: {fileID: 0}
+  cointTxt: {fileID: 0}
 --- !u!50 &3279305614014738304
 Rigidbody2D:
   serializedVersion: 4
