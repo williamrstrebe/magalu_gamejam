@@ -7,7 +7,7 @@ public class WorldState : MonoBehaviour
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
-        this.wallet = 500f;
+        this.wallet = 400f;
     }
 
     private float wallet;
